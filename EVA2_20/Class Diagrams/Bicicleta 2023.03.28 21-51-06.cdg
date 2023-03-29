@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Bicicleta">
+  <ClassDiagramComponents>
+    <Class name="Bicicleta" package="SuperClase" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="tipo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipo"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="color"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTipo" returnType="String" visibility="public"/>
+        <Method name="setTipo" returnType="void" visibility="public">
+          <Argument type="String" name="tipo"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

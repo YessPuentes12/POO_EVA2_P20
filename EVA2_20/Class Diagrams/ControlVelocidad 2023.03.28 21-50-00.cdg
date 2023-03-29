@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ControlVelocidad">
+  <ClassDiagramComponents>
+    <Interface name="ControlVelocidad" package="Interfaz" visibility="public" xPosition="97.0" yPosition="85.0">
+      <Methods>
+        <Method name="imprimirVel" returnType="void" visibility="package" isAbstract="true"/>
+        <Method name="acelerar" returnType="void" visibility="package"/>
+        <Method name="detener" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
